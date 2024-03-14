@@ -99,10 +99,9 @@ header {
 } 
 
 #post_title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
+
 .cards_container {
     display: flex;
     justify-content: space-evenly;
@@ -196,16 +195,19 @@ footer {
     }
 
     #form_data {
+        padding: 60px 0;
         grid-template-columns: repeat(1, 1fr);
     }
 
     #card_info{
+        margin: 0 40px;
         border-bottom-left-radius: 0;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-
+    
     #card_form {
+        margin: 0 40px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px ;
