@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Landing</title>
+</head>
+<body>
+        <header>
+            <h1 id="header_title">InteGrowHome Inmobiliaria 4.0</h1>
+            <p id="header_puv"><strong>Ayudamos a marcas personales, pymes y empresas del sector inmobiliario 
+                en su proceso de adaptación a la cuarta revolución industrial, 
+                mediante la metodología Growth & Scrum.</strong></p>
+        </header>
+        <div>
+            <div id="video_presentation">
+                <video src=""></video>
+            </div>
+            <div id="form_data">
+                <div id="card_info">
+                    <h1 id="card_info_title"></h1>
+                    <ul>
+                        <li class="card_info_item">Acompañamiento personalizado</li>
+                        <li class="card_info_item">Metodología comprovada </li>
+                        <li class="card_info_item">Partner working</li>
+                        <li class="card_info_item">Lanzamientos publicitarios</li>
+                    </ul>
+                </div>
+                <div id="card_form">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="text" placeholder="Nombre Completo">
+                        <input type="text" placeholder="Correo electrónico">
+                        <input type="number" placeholder="Numero de contacto">
+                        <button type="submit">APLICAR AHORA</button>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <h1 id="post_title">Introducción InteGrowHome</h1>
+            </div>
+            <div class="cards_container">
+                <h2 class="card_post">¿Por qué?</h2>
+                <h2 class="card_post">¿Qué?</h2>
+            </div>
+            <div id="button_date">
+                <button class="button_date">AGENDAR CONSULTA PERSONALIZADA</button>
+            </div>
+            <div class="cards_container"> 
+                <h2 class="card_post">¿Cómo?</h2>
+                <h2 class="card_post">PTM</h2>
+            </div>
+            <footer>
+                <div id="story_telling">
+                    <h1>Storytelling</h1>
+                    <div id="story_telling_text">
+                        <p>
+                            Hace 5 años (2019) inicio esta experiencia en el sector inmobiliario, observamos la gran oportunidad que había en un sector altamente competitivo pero, extremadamente tradicional y con resistencia al cambio.
+                        </p>
+                        <p>
+                            Lo cual llevo a crear los cimientos y las bases para formar un inmobiliaria 4.0, puesto que al momento de nuestro nacimiento el mundo se encontraba iniciando los primeros años de la cuarta revolución industrial.
+                        </p>
+                        <p>
+                            Hoy en 2024 con más experiencia y entendimiento del mercado, tenemos muy claro que tenemos que optimizar el match entre los stakeholders (usuarios y participantes) del sector inmobiliario en Bogotá,Colombia & Latinoamerica.
+                        </p>
+                    </div>
+                    <button id="story_telling_button">Contactar Wpp</button>
+                </div>
+                <div id="img_footer">
+                    <img src="" alt="">
+                </div>
+            </footer>
+        </div>
+</body>
+</html>

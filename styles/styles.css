@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header_title {
+    margin: 40px 100px 20px 100px;
+}
+
+#header_puv {
+    margin: 20px 100px 40px 100px;
+    text-align: center;
+}
+
+#video_presentation {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #1c50b9;
+    width: 500px;
+    height: 300px;
+}
+
+#form_data {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 60px 80px;
+    min-height: 500px;
+    background-image: radial-gradient(circle at center, #0056FF 0%, #08acf8 100%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#card_info{
+    background-color: black;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#card_info li{
+    margin: 60px 0;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#card_form {
+    background-color: aliceblue;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+} 
+
+#card_form form{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+#card_form form input{
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px rgb(29, 176, 235);
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 9px center; 
+} 
+
+#card_form form button{
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px rgb(29, 176, 235);
+    background-color: #0056FF;
+    color: white;
+    font-size: 16px;
+} 
+
+#post_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+  
+.card_post {
+    border: solid 2px #1c50b9;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+}
+
+
+#button_date {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.button_date {
+    border: none;
+    height: 60px;
+    color: white;
+    background-image: linear-gradient(to right, #1d76fc, rgb(47, 64, 119));
+    width: 300px;
+    border-radius: 15px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+footer {
+    margin-bottom: 50px;
+    height: 750px;
+    background-image: linear-gradient(to bottom, #1d76fc, rgb(0, 14, 59));
+    display: flex;
+}
+
+#story_telling {
+    text-align: center;
+    width: 50%;
+}
+
+#story_telling h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#story_telling_text {
+    margin: 30px auto;
+    border: solid;
+    width: 70%;
+    border-radius: 15px;
+    padding: 0 10px 30px 10px;
+    background-color: black;
+    color: white;
+}
+
+#story_telling_text  p{
+    margin-top: 50px;
+}
+
+#story_telling_button {
+    background-color: #2378b1;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+#img_footer {
+    width: 50%;
+    border: solid;
+
+}
+
+
+@media (max-width: 768px) {
+    #card_info_item, #card_form form input, #card_form form button {
+      font-size: 16px;
+    }
+
+    #form_data {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #card_info{
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #card_form {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px ;
+    } 
+
+    .cards_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_post {
+        margin: 20px 0;
+    }
+
+    footer{
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #story_telling {
+        text-align: center;
+        width: 100%;
+    }
+
+    #img_footer {
+        width: 100%;
+        height: 600px;
+    }
+  }
