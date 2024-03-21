@@ -9,6 +9,13 @@ header {
     align-items: center;
 }
 
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
 #header_title {
     margin: 40px 100px 20px 100px;
 }
