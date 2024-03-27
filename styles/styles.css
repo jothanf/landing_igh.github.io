@@ -50,6 +50,7 @@ header {
 #sub-title {
     padding-top: 8px;
     font-size: 60px;
+    text-align: center;
 }
   
 #header_puv_container {
@@ -333,6 +334,7 @@ footer {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(to right, #003499, #6033F4);
+    text-align: center;
 }
 
 #video_presentation_film_maker {
@@ -461,7 +463,7 @@ a{
         font-size: 18px;
     }
     #card_post p,
-    #card_post p{
+    #card_post li{
         font-size: 12px;
     }
 
