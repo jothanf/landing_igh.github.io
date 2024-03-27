@@ -330,6 +330,9 @@ footer {
 
 #film_maker_title {
     margin-bottom: 40px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #003499, #6033F4);
 }
 
 #video_presentation_film_maker {
@@ -395,7 +398,6 @@ a{
     #card_form form button,
     #post_title,
 
-    #story_telling_title,
     #story_telling_text p,
     #film_maker_title {
         font-size: 20px;
@@ -478,7 +480,7 @@ a{
 
     #story_telling_title {
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 20px;
         
     }
 
