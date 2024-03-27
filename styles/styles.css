@@ -377,7 +377,7 @@ a{
 
 
 
-@media (max-width: 768px) and (min-width: 571px) {
+@media (max-width: 768px) {
 
     #header_title {
         flex-direction: column;
