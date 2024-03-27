@@ -11,21 +11,23 @@
 </head>
 <body>
         <header>
-            <h1 id="header_title">InteGrowHome Inmobiliaria 4.0</h1>
-            <p id="header_puv"><strong>Ayudamos a marcas personales, pymes y empresas del sector inmobiliario 
-                en su proceso de adaptación a la cuarta revolución industrial, 
-                mediante la metodología Growth & Scrum.</strong></p>
+            <div id="header_title">
+                <h1 id="igh_title">InteGrowHome</h1>
+                <h2 id="sub-title">Inmobiliaria 4.0</h2>
+            </div>
         </header>
-        <div id="contenedor_prueba">
-            <h1 class="dancing-script">hola mundooo</h1>
+        <div id="header_puv_container">
+            <p id="header_puv">
+                <strong>Ayudamos a marcas profesionales, pymes y empresas</strong> del sector inmobiliario, en su proceso de adaptación a la cuarta revolución industrial, mediante la metodología Growth & Scrum.
+            </p>
         </div>
         <div>
             <div id="video_presentation">
-                <video src=""></video>
+                <iframe width="900px" height="auto" src="https://www.youtube.com/embed/F3392mH7tpo?si=tULMcs3myIl9BrGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video_presentation"></iframe>
             </div>
             <div id="form_data">
                 <div id="card_info">
-                    <h1 id="card_info_title"></h1>
+                    <h1>SERVICIOS GROWTH & SCRUM</h1>
                     <ul>
                         <li class="card_info_item">Acompañamiento personalizado</li>
                         <li class="card_info_item">Metodología comprovada </li>
@@ -34,31 +36,77 @@
                     </ul>
                 </div>
                 <div id="card_form">
+                    <h1>APLICAR A LA METOLÓGIA G&S</h1>
                     <form method="POST">
-                        <input type="text" placeholder="Nombre Completo">
-                        <input type="text" placeholder="Correo electrónico">
-                        <input type="number" placeholder="Numero de contacto">
+                        <input type="text" placeholder="Nombre Completo" id="name" name="name" required>
+                        <input type="email" placeholder="Correo electrónico" id="email" name="email" required>
+                        <input type="number" placeholder="Numero de contacto" id="phone" name="phone" required>
                         <button type="submit">APLICAR AHORA</button>
                     </form>
                 </div>
             </div>
-            <div>
-                <h1 id="post_title">Introducción InteGrowHome</h1>
+            <div id="cards_title">
+                <h1 id="post_title">Introducción </h1>
+                <h1 id="igh_title">InteGrowHome</h1>
             </div>
-            <div class="cards_container">
-                <h2 class="card_post">¿Por qué?</h2>
-                <h2 class="card_post">¿Qué?</h2>
+            <div id="cards_container">
+                <div id="card_post">
+                    <h1>¿Por qué exitimos?</h1>
+                    <hr>
+                    <div id="card_post_text">
+                        <p>
+                            Para optimizar los procesos y experiencia de interacción en los integrantes mediante la construcción de una agremiación 4.0 con profesionales y pymes del sector inmobiliario, que permita en consecuencia una mejor experiencia de usuario final (Propietarios, Compradores e Inquilinos)
+                        </p>
+                    </div>
+                </div>
+                <div id="card_post">
+                    <h1>¿Qué hacemos?</h1>
+                    <hr>
+                    <div id="card_post_text">
+                        <li>
+                            Brindamos servicios de crecimiento mediante la metodologia Growth & Scrum a profesionales & Pymes.
+                        </li>
+                        <li>
+                            Prestamos servicios inmobiliarios personalizados a propietarios, inversionistas e inquilinos.
+                        </li>
+                        <li>
+                            Creamos tecnologia propia mediante la metodologia Scrum enfocada en el sector inmobiliario.
+                        </li>
+                    </div>
+                </div>
             </div>
             <div id="button_date">
                 <button class="button_date">AGENDAR CONSULTA PERSONALIZADA</button>
             </div>
-            <div class="cards_container"> 
-                <h2 class="card_post">¿Cómo?</h2>
-                <h2 class="card_post">PTM</h2>
+            <div id="cards_container"> 
+                <div id="card_post">
+                    <h1>¿Como lo hacemos?</h1>
+                    <hr>
+                    <div id="card_post_text">
+                        <li>
+                            Promoviendo y optimizando el trabajo en equipo, articulando los  actores del sector inmobiliario.
+                        </li>
+                        <li>
+                            Generando un sistema de atención al cliente basado en tecnologias y metodologias de la cuarta revolución industrial.
+                        </li>
+                        <li>
+                            Capacitando a profesionales & pymes en actualización tecnologica.
+                        </li>
+                    </div>
+                </div>
+                <div id="card_post">
+                    <h1>Proposito de Transformación Masiva</h1>
+                    <hr>
+                    <div id="card_post_text">
+                        <p>
+                            El desarrollo de las ciudades se da desde los desarrolladores, constructoras e inmobiliarias, nuestro PTM es articular por medio de tecnologia y la agremiación inmobiliaria 4.0 un sistema que permita identificar y acceder a mejores oportunidades de inversión a las familias colombianas e inversionista en el pais.
+                        </p>
+                    </div>
+                </div>
             </div>
             <footer>
                 <div id="story_telling">
-                    <h1>Storytelling</h1>
+                    <h1 id="story_telling_title">Storytelling</h1>
                     <div id="story_telling_text">
                         <p>
                             Hace 5 años (2019) inicio esta experiencia en el sector inmobiliario, observamos la gran oportunidad que había en un sector altamente competitivo pero, extremadamente tradicional y con resistencia al cambio.
@@ -70,12 +118,34 @@
                             Hoy en 2024 con más experiencia y entendimiento del mercado, tenemos muy claro que tenemos que optimizar el match entre los stakeholders (usuarios y participantes) del sector inmobiliario en Bogotá,Colombia & Latinoamerica.
                         </p>
                     </div>
-                    <button id="story_telling_button">Contactar Wpp</button>
+                    <button id="story_telling_button">CONTACTAR AHORA</button>
                 </div>
                 <div id="img_footer">
-                    <img src="" alt="">
+                    <img src="../../static/img/fondo_edificios_bogota.jpg" alt="edificios">
                 </div>
             </footer>
+            <div id="film_maker">
+                <div id="film_maker_title">
+                    <h1>Servicios de Filmmaker</h1>
+                </div>
+                <div id="video_presentation_film_maker">
+                    <iframe width="900px" height="auto" src="https://www.youtube.com/embed/F3392mH7tpo?si=tULMcs3myIl9BrGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video_presentation"></iframe>
+                </div>
+                <button id="film_maker_button"><a href="https://drive.google.com/drive/folders/1-6KlNI5L54Kr7APJqgIx8dj9evDvlC9R" target="_blank">IR AL PORTAFOLIO</a></button>
+                <div id="film_maker_text">
+                    <p>
+                        <strong>
+                            Potencia tus propiedades con contenido visual de alta calidad,
+                        </strong>
+                    </p>
+                    <p>
+                        impacta a tus clientes propietarios e inversionistas mediante una marca que transmita profesionalismo y experiencia. 
+                    </p>
+                    <p>
+                        Somos tu equipo de Filmmaker especializado en inmobiliaria. Desde videos profesionales hasta recorridos virtuales, destacamos tus propiedades y atraemos a más clientes.
+                    </p>
+                </div>
+            </div>
         </div>
 </body>
 </html>
