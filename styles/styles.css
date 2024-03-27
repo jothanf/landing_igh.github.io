@@ -456,18 +456,18 @@ a{
     }
 
     #card_post h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
     #card_post p,
     #card_post p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .button_date,
     #story_telling_button,
     #film_maker_button {
         width: 80%; 
-        font-size: 16px; 
+        font-size: 14px; 
     }
 
     #story_telling {
@@ -478,7 +478,7 @@ a{
 
     #story_telling_title {
         margin-top: 20px;
-        font-size: 60px;
+        font-size: 18px;
         
     }
 
@@ -487,7 +487,7 @@ a{
     }
 
     #story_telling p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #img_footer {
@@ -495,6 +495,6 @@ a{
     }
 
     #film_maker_text p{
-        font-size: 16px;
+        font-size: 12px;
     }
 }
